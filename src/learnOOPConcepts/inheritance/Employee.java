@@ -11,5 +11,7 @@ package learnOOPConcepts.inheritance;
 		this.salary = salary;
 	}*/
 	
-	
+	public static void DefaultPlan(){
+		System.out.println("employee class static method");
+	}
 }
