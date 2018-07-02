@@ -3,10 +3,11 @@ package learnOOPConcepts.inheritance;
 import java.time.LocalDateTime;
 
 public class Manager extends Employee implements trainable, Interveiw{
-
+	String test1="u accessed!";
 	public void ConductingInterview() {
 		System.out.println("Manager conducting interview");
-		
+		System.out.println(val);
+		//System.out.println(Interveiw.val);
 	}
 
 	public void getTraining() {
