@@ -25,6 +25,20 @@ public class Manager extends Employee implements trainable, Interveiw{
 		
 	}
 
+	void startProject() {
+		// TODO Auto-generated method stub
+		meetClient();
+		alocateResoruces();
+		
+	}
+	
+	void meetClient(){
+		System.out.println("meet client");
+	}
+	void alocateResoruces(){
+		System.out.println("allocated resorces");
+	}
+
 
 
 	/*public Manager(String name, int age, double salary) {

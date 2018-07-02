@@ -10,8 +10,11 @@ public class MainClass {
 		manager.DefaultPlan();
 		manager.ConductingInterview();*/
 		
-		Interveiw manager = new Manager();
-		System.out.println(((Manager)manager).test1);
+		Employee emp = new Employee();
+		Employee pro = new Programmer();
+		System.out.println(emp.name);
+		System.out.println(pro.name);
+		((Programmer) pro).gettingName();
 		
 	}
 

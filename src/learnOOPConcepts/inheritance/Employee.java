@@ -1,7 +1,7 @@
 package learnOOPConcepts.inheritance;
 
- public abstract class Employee {
-	protected String name;
+ public  class Employee {
+	protected String name="employee";
 	protected int age;
 	protected double salary;
 	
@@ -10,6 +10,10 @@ package learnOOPConcepts.inheritance;
 		this.age = age;
 		this.salary = salary;
 	}*/
+	public void reachOffice(){
+		System.out.println("office in india");
+	}
+	
 	
 	public static void DefaultPlan(){
 		System.out.println("employee class static method");
