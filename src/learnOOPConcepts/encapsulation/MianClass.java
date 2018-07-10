@@ -1,5 +1,7 @@
 package learnOOPConcepts.encapsulation;
 
+import learnOOPConcepts.singleton.Singleton;
+
 public class MianClass {
 
 	public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class MianClass {
 		MyClass myClass = new MyClass();
 		myClass.myMethod();
 		myClass.setName("osdf");
+		Singleton.getInstance();
 	
 	}
 
