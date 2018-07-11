@@ -1,13 +1,17 @@
 package learnOOPConcepts.singleton;
 
 public class Singleton {
-	private static Singleton instance;
+	private static volatile Singleton instance;
 	public static Singleton getInstance(){
 		/*Singleton singleton = Holder.instance;
 		System.out.println(singleton);
 		return singleton;*/
 		if(instance==null){
-			instance = new Singleton();
+			synchronized(Singleton.class){
+				if(instance==null){
+					instance = new Singleton();
+				}				
+			}			
 		}
 		return instance;
 	}
