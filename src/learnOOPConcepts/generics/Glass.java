@@ -1,5 +1,11 @@
 package learnOOPConcepts.generics;
 
 public class Glass {
-	Juice juice;
+	protected Object liquid;
+
+//	public Glass(Liquid liquid) {
+//		
+//		this.liquid = liquid;
+//	}
+	
 }
